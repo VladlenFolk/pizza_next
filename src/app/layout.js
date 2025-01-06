@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${roboto} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <main className="max-w-4xl mx-auto border">{children}</main>
+        <main className="max-w-4xl mx-auto p-4">{children}</main>
       </body>
     </html>
   );
