@@ -2,22 +2,24 @@ import Image from "next/image";
 
 export default function HomeMenu() {
   return (
-    <section className="h-48 relative">
-      <div>
+    <section className="">
+      <div className="absolute h-full left-0 right-0 justify-start w-full">
+      <div className="absolute left-0 -top-[70px] text-left -z-10">
         <Image
-          src={"/salad1.png"}
-          layout={"fill"}
-          objectFit="contain"
+          src={"/sallad1.png"}
+         width={109}
+         height={189}
           alt="salad"
         />
       </div>
-      <div>
+      <div className="absolute -top-[100px] right-0 -z-10">
         <Image
-          src={"/salad2.png"}
-          layout={"fill"}
-          objectFit="contain"
+          src={"/sallad2.png"}
+          width={107}
+          height={195}
           alt="salad"
         />
+      </div>
       </div>
       <div className="text-center">
         <h3 className="uppercase text-gray-500 font-semibold leading-4">
