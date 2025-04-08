@@ -12,7 +12,7 @@ export default function Header() {
         <Link href={""}>About</Link>
         <Link href={""}>Contact</Link>
       </nav>
-      <nav className="flex items-center gap-8 text-gray-500 font-semibold">
+      <nav className="flex items-center gap-4 text-gray-500 font-semibold">
       <Link href={"/login"}>Login</Link>
         <Link
           href={"/register"}
